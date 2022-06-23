@@ -6,10 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test</title>
+    <style>
+        .active {
+            background-color: pink;
+            outline: none;
+        }
+
+        .current {
+            color: green;
+        }
+    </style>
 </head>
 
 <body>
-    <p>this is test files.</p>
+    <p class="current">this is test1 files.</p>
+    <p class="">this is test2 files.</p>
+    <p class="active">this is test3 files.</p>
     <button class="btn"> click me </button>
     <script>
         let btn = document.querySelector( '.btn' )
